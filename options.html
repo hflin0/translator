@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>设置 - 划词翻译插件</title>
+    <style>
+        body {
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 400px;">
+        <h1>设置</h1>
+        <label for="apiKey">API Key:</label><br>
+        <input type="text" id="apiKey" style="width: 100%;"/><br><br>
+        <label for="baseUrl">Base URL:</label><br>
+        <input type="text" id="baseUrl" style="width: 100%;" value="https://api.deepseek.com"/><br><br>
+        <label for="model">Model:</label><br>
+        <input type="text" id="model" style="width: 100%;" value="deepseek-chat"/><br><br>
+        <button id="saveButton">保存</button>
+        <script src="options.js"></script>
+    </div>
+</body>
+</html>
